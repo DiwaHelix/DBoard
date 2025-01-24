@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DBOARD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>DBOARD</h1>
+  <form id="username-form">
+    <input type="text" id="username-input" placeholder="Enter your username" required>
+    <button type="submit">Set Username</button>
+  </form>
+  <form id="message-form" style="display: none;">
+    <input type="text" id="message-input" placeholder="Enter your message" required>
+    <button type="submit">Post</button>
+  </form>
+  <ul id="messages"></ul>
+  <script src="app.js"></script>
+</body>
+</html>
